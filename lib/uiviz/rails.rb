@@ -1,4 +1,6 @@
-require "uiviz/rails/version"
+# frozen_string_literal: true
+
+require 'uiviz/rails/version'
 
 module Uiviz
   module Rails
