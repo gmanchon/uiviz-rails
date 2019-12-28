@@ -33,7 +33,13 @@ module Uiviz
 
       TEST_ERB = <<~ERB
         <%= render "shared/accordion",
-            data: ['a', ['b', 'c', 'd'], 'e', 'f'] %
+              data: [{
+                title: 'math',
+                sub: ['math', 'calculus', 'algebra', 'statistics']
+                },{
+                title: 'ruby',
+                sub: ['ruby', 'bundler', 'rubygems', 'rake']
+                }] %
       ERB
 
       def render
