@@ -36,10 +36,10 @@ module Uiviz
               data: [{
                 title: 'math',
                 sub: ['math', 'calculus', 'algebra', 'statistics']
-                },{
+              },{
                 title: 'ruby',
                 sub: ['ruby', 'bundler', 'rubygems', 'rake']
-                }] %
+              }] %
       ERB
 
       def render
