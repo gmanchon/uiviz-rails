@@ -35,10 +35,34 @@ module Uiviz
         <%= render "shared/accordion",
               data: [{
                 title: 'math',
-                sub: ['math', 'calculus', 'algebra', 'statistics']
+                sub: [{
+                    item: 'math',
+                    ref: '#'
+                  },{
+                    item: 'calculus',
+                    ref: '#'
+                  },{
+                    item: 'algebra',
+                    ref: '#'
+                  },{
+                    item: 'statistics',
+                    ref: '#'
+                  }]
               },{
                 title: 'ruby',
-                sub: ['ruby', 'bundler', 'rubygems', 'rake']
+                sub: [{
+                    item: 'ruby',
+                    ref: '#'
+                  },{
+                    item: 'bundler',
+                    ref: '#'
+                  },{
+                    item: 'rubygems',
+                    ref: '#'
+                  },{
+                    item: 'rake',
+                    ref: '#'
+                  }]
               }] %
       ERB
 
